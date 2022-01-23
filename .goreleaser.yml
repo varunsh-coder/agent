@@ -19,3 +19,6 @@ builds:
     # This overrides `goos`, `goarch`, `goarm`, `gomips` and `ignores`.
     targets:
       - linux_amd64
+      
+sboms:
+  - artifacts: archive
